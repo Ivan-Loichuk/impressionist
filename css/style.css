@@ -23,6 +23,9 @@ body{
   background-color: #272828;
 }
 
+header {
+	border-bottom: solid 2px black;
+}
 header .navbar-brand {
 	padding-top: 40px;
 	padding-left: 40px;
@@ -38,3 +41,11 @@ header .navbar-brand {
 	background-color: #F93C40;
 }
 
+/* MAIN CONTENT */
+.main_content{
+	background-color: #242424;
+	padding-top: 40px;
+}
+.main_content img{
+	
+}

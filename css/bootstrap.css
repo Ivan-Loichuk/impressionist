@@ -4166,7 +4166,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+ 
   
 }
 @media (min-width: 768px) {
@@ -4608,7 +4608,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #9d9d9d;
-  
+
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4963,8 +4963,8 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  color: #666460;
+  
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4995,7 +4995,7 @@ a.badge:focus {
   .container .jumbotron,
   .container-fluid .jumbotron {
     padding-right: 60px;
-    padding-left: 60px;
+    padding-left: 20px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -5007,8 +5007,6 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
