@@ -4,20 +4,37 @@
 body{
 
 }
-header {
+.top{
 	background-color: #272828;
 	
 }
-.navigation {
+.navbar-collapse {
 	float: right;
+	
 }
-header .logo{
-	padding-top: 40px; 
+@media (max-width: 768px) {
+	.navbar-collapse{
+		float: none;
+		text-align: center;
+	}
+    
+}
+ .navigation{
+  background-color: #272828;
+}
+
+header .navbar-brand {
+	padding-top: 40px;
+	padding-left: 40px;
+	height: 120px; 
 }
 .navigation a{
 	color: #98948F;
 }
 .navigation a:hover{
 	color: white;
+}
+.navbar-nav > li > a:hover{
+	background-color: #F93C40;
 }
 
