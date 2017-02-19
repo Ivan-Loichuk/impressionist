@@ -1,0 +1,23 @@
+*{
+
+}
+body{
+
+}
+header {
+	background-color: #272828;
+	
+}
+.navigation {
+	float: right;
+}
+header .logo{
+	padding-top: 40px; 
+}
+.navigation a{
+	color: #98948F;
+}
+.navigation a:hover{
+	color: white;
+}
+
