@@ -305,8 +305,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .thumbnail,
 .img-thumbnail {
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+  
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
@@ -481,8 +480,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .list-group {
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+ 
 }
 .list-group-item.active,
 .list-group-item.active:hover,

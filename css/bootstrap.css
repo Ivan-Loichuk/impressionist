@@ -3827,7 +3827,7 @@ tbody.collapse.in {
   position: relative;
   z-index: 2;
   float: left;
-  width: 100%;
+  width: 133%;
   margin-bottom: 0;
 }
 .input-group .form-control:focus {
@@ -5006,6 +5006,7 @@ a.badge:focus {
   display: block;
   padding: 4px;
   margin-bottom: 20px;
+  margin-top: 40px;
   line-height: 1.42857143;
   border-radius: 4px;
   -webkit-transition: border .2s ease-in-out;
@@ -5024,6 +5025,7 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
+  text-align: center;
   color: #333;
 }
 .alert {
@@ -5250,10 +5252,11 @@ a.thumbnail.active {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  padding: 0px 15px;
+  margin-bottom: -10px;
+  margin-top: -10px;
+  background-color: #F3F2F0;
+  
 }
 .list-group-item:first-child {
   border-top-left-radius: 4px;
