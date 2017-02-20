@@ -3984,6 +3984,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 50px 15px;
+  transition: padding 0.5s;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4278,6 +4279,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  transition: 0.5s;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
